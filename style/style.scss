@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    font-size: .35rem;
+    .header {
+        width: 100%;
+        height: 1rem;
+        background: #393a3f;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            li {
+                line-height: 1rem;
+                color: #fff;
+            }
+            li:nth-child(1) {
+                margin-left: .3rem;
+            }
+            li:nth-child(2) {
+                position: absolute;
+                left: 1.3rem;
+            }
+            li:nth-child(3) {
+                margin-right: .3rem;
+            }
+        }
+    }
+    .banner {
+        width: 100%;
+        height: 3.1rem;
+        position: relative;
+        .swiper-container {
+            width: 100%;
+            height: 3.1rem;
+            .swiper-wrapper {
+                width: 100%;
+                height: 3.1rem;
+                .swiper-slide {
+                    width: 100%;
+                    height: 3.1rem;
+                    img {
+                        width: 100%;
+                        height: 3.1rem;
+                    }
+                }
+            }
+        }
+        ul {
+            position: absolute;
+            padding: 0 .2rem;
+            box-sizing: border-box;
+            top: .2rem;
+            left: 0;
+            z-index: 999;
+            display: flex;
+            li:nth-child(1) {
+                width: .65rem;
+                height: .65rem;
+                background: rgba(255, 255, 255, .8);
+                border-radius: 100%;
+                text-align: center;
+                line-height: .65rem;
+            }
+            li:nth-child(2) {
+                input {
+                    width: 6.15rem;
+                    height: .65rem;
+                    border: none;
+                    border-radius: 1rem;
+                    margin-left: .2rem;
+                    background: rgba(255, 255, 255, .8);
+                }
+            }
+        }
+    }
+    .nav {
+        width: 100%;
+        height: 3.55rem;
+        display: flex;
+        flex-wrap: wrap;
+        dl {
+            width: 20%;
+            height: auto;
+            margin-top: .4rem;
+            dt {
+                margin: 0 auto;
+                width: .7rem;
+                height: .7rem;
+                border-radius: 100%;
+                border: 1px solid #eee;
+                img {
+                    width: .5rem;
+                    height: auto;
+                    margin-top: .13rem;
+                    margin-left: .09rem;
+                }
+            }
+            dd {
+                text-align: center;
+                font-size: .25rem;
+                margin-top: .15rem;
+            }
+        }
+    }
+    .box {
+        width: 100%;
+        height: 2.08rem;
+        margin-top: .3rem;
+        img {
+            width: 100%;
+            height: 2.08rem;
+        }
+    }
+    .box1 {
+        width: 100%;
+        height: 2.15rem;
+        background: #f7f7f7;
+        ul {
+            display: flex;
+            li:nth-child(1) {
+                margin-left: .35rem;
+                margin-top: .7rem;
+                img {
+                    width: .9rem;
+                    height: 1.3rem;
+                }
+            }
+            li:nth-child(2) {
+                width: 4.65rem;
+                height: 1.92rem;
+                background: #fff;
+                padding: 0 .2rem;
+                box-sizing: border-box;
+                margin-top: .22rem;
+                margin-left: .3rem;
+                position: relative;
+                dl {
+                    width: 2.5rem;
+                    height: 1.92rem;
+                    dt {
+                        display: flex;
+                        margin-top: .25rem;
+                        img {
+                            width: .4rem;
+                            height: .4rem;
+                        }
+                        p {
+                            font-size: .3rem;
+                            margin-left: .12rem;
+                        }
+                    }
+                    dd {
+                        line-height: .35rem;
+                        color: #9a9a9a;
+                        font-size: .3rem;
+                        margin-top: .15rem;
+                    }
+                }
+                span {
+                    position: absolute;
+                    right: .25rem;
+                    top: .3rem;
+                    img {
+                        width: 1.55rem;
+                        height: 1.55rem;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: 1rem;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        dl {
+            width: 20%;
+            dt {
+                text-align: center;
+            }
+            dd {
+                text-align: center;
+                font-size: .25rem;
+            }
+        }
+        dl:nth-child(1) {
+            color: red;
+        }
+    }
+}
